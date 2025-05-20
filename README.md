@@ -19,17 +19,17 @@ Analyze and visualize an audio signal in the time and frequency domains using Py
 
 **Notes:**
 Make sure the audio file sample_audio.wav (or another .wav) is located in the same directory as the notebook.
-
 Use stereo or mono .wav files with a standard sample rate (e.g., 44100 Hz).
 
 
 ## 2: signal_analysis.ipynb
 **Goal:**
-Plot mathematical functions and their derivatives to demonstrate analytical skills in a numerical environment. This notebook is focused on using NumPy and Matplotlib for symbolic-like computation and function visualization.
+Build a Python script that loads a signal (simulated sine wave + noise ). After that applying common signal processing techniques (e.g., filtering, FFT), and visualizing the results interactively by using Matplotlib.
 
 **Features:**
-+ Define mathematical functions (e.g. sine, cosine, exponential)
-+ Compute derivatives analytically or numerically
-+ Plot both functions and their derivatives
-+ Use subplots and legends for clarity
++ Perform Fourier Transform(FFT)
++ Filtering(low-pass filter)
++ Visualizing Time domain and Frequency domain
+
+
 
